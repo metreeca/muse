@@ -49,7 +49,7 @@
   "dependencies": {
     "@google/genai": "^2.21.0",
     "@metreeca/flow": "^0.9.21",
-    "@metreeca/muse": "*",
+    "@metreeca/muse": "^0.1.0",
     "@metreeca/tape": "^0.10.0"
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "@metreeca/muse-google",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Google model connectors for @metreeca/muse.",
   "keywords": [
     "typescript",
@@ -48,9 +48,9 @@
   },
   "dependencies": {
     "@google/genai": "^2.21.0",
-    "@metreeca/flow": "^0.9.21",
-    "@metreeca/muse": "^0.1.0",
-    "@metreeca/tape": "^0.10.0"
+    "@metreeca/flow": "^0.10.0",
+    "@metreeca/muse": "^0.1.1",
+    "@metreeca/tape": "^0.10.1"
   },
   "devDependencies": {
     "@types/node": "^25.9.3",

@@ -1,6 +1,6 @@
 {
   "name": "@metreeca/muse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AI tasks and shared services for @metreeca/muse.",
   "keywords": [
     "typescript",
@@ -46,10 +46,10 @@
     "check": "npx vitest --typecheck run"
   },
   "dependencies": {
-    "@metreeca/core": "^0.9.22",
-    "@metreeca/flow": "^0.9.21",
-    "@metreeca/gear": "^0.1.1",
-    "@metreeca/tape": "^0.10.0"
+    "@metreeca/core": "^0.10.0",
+    "@metreeca/flow": "^0.10.0",
+    "@metreeca/gear": "^0.2.0",
+    "@metreeca/tape": "^0.10.1"
   },
   "devDependencies": {
     "@types/node": "^25.9.3",

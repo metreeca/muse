@@ -51,7 +51,7 @@ provider needs.
 
 # Shared Utilities
 
-Reach for `@metreeca/core` before writing a helper: its `strings`, `numbers`, `arrays` and `structures` entry points
+Reach for `@metreeca/core` before writing a helper: its `strings`, `numbers`, `arrays` and `values` entry points
 already cover text tidying, escaping, splitting and templating alongside the common collection and value operations. A
 hand-rolled equivalent duplicates tested code and drifts from it, missing the edge cases the shared one handles.
 

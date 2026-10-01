@@ -1,13 +1,14 @@
 {
-  "name": "@metreeca/muse-google",
+  "name": "@metreeca/muse-openai",
   "version": "0.2.0",
-  "description": "Google model connectors for @metreeca/muse.",
+  "description": "OpenAI model connectors for @metreeca/muse.",
   "keywords": [
     "typescript",
     "pipeline",
     "ai",
     "llm",
-    "gemini"
+    "openai",
+    "gpt"
   ],
   "homepage": "https://metreeca.github.io/muse/",
   "bugs": {
@@ -23,7 +24,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/metreeca/muse.git",
-    "directory": "packages/muse-google"
+    "directory": "packages/muse-openai"
   },
   "type": "module",
   "sideEffects": false,
@@ -47,10 +48,10 @@
     "check": "npx vitest --typecheck run"
   },
   "dependencies": {
-    "@google/genai": "^2.21.0",
     "@metreeca/flow": "^0.11.0",
     "@metreeca/muse": "^0.2.0",
-    "@metreeca/tape": "^0.11.0"
+    "@metreeca/tape": "^0.11.0",
+    "openai": "^7.25.0"
   },
   "devDependencies": {
     "@types/node": "^25.9.3",

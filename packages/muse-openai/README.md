@@ -1,18 +1,17 @@
-# @metreeca/muse-google
+# @metreeca/muse-openai
 
-[![npm](https://img.shields.io/npm/v/@metreeca/muse-google)](https://www.npmjs.com/package/@metreeca/muse-google)
+[![npm](https://img.shields.io/npm/v/@metreeca/muse-openai)](https://www.npmjs.com/package/@metreeca/muse-openai)
 
-Google model connectors for [@metreeca/muse](https://github.com/metreeca/muse).
+OpenAI model connectors for [@metreeca/muse](https://github.com/metreeca/muse).
 
-Gives access to Google models through either the Gemini API, keyed by an API key, or Vertex AI, keyed by project
-credentials.
+Gives access to OpenAI models through the OpenAI API, keyed by an API key.
 
 # Installation
 
 ```shell
 npm install @metreeca/gear         # the job executor
 npm install @metreeca/muse         # AI tasks and shared services
-npm install @metreeca/muse-google  # this package
+npm install @metreeca/muse-openai  # this package
 ```
 
 > [!IMPORTANT]
@@ -26,7 +25,7 @@ npm install @metreeca/muse-google  # this package
 
 # Usage
 
-See the [API reference](https://metreeca.github.io/muse/modules/_metreeca_muse-google.html).
+See the [API reference](https://metreeca.github.io/muse/modules/_metreeca_muse-openai.html).
 
 # Support
 

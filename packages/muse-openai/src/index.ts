@@ -15,14 +15,13 @@
  */
 
 /**
- * Google model connectors for {@link https://github.com/metreeca/muse @metreeca/muse}.
+ * OpenAI model connectors for {@link https://github.com/metreeca/muse @metreeca/muse}.
  *
- * Gives access to Google models through either the Gemini API, keyed by an API key, or Vertex AI, keyed by project
- * credentials.
+ * Gives access to OpenAI models through the OpenAI API, keyed by an API key.
  *
  * @module index
  *
- * @see {@link https://ai.google.dev/gemini-api/docs Gemini API documentation}
+ * @see {@link https://platform.openai.com/docs OpenAI API documentation}
  */
 
 export {};

@@ -22,8 +22,8 @@ on.
 
 ```shell
 npm install @metreeca/gear             # job executor and shared services
-npm install @metreeca/muse             # model access contracts and shared services
-npm install @metreeca/muse-<provider>  # task package, one per model provider
+npm install @metreeca/muse             # AI tasks and shared services
+npm install @metreeca/muse-<provider>  # model connectors, one package per provider
 ```
 
 > [!WARNING]
@@ -31,19 +31,21 @@ npm install @metreeca/muse-<provider>  # task package, one per model provider
 > TypeScript consumers must use `"moduleResolution": "nodenext"/"node16"/"bundler"` in `tsconfig.json`.
 > The legacy `"node"` resolver is not supported.
 
-Install the core package, then add a task package for each model provider the pipeline reaches. Provider packages are
-self-contained leaves, each pulling in only the SDK its own provider needs. The job executor comes from
-[@metreeca/gear](https://github.com/metreeca/gear), which the core package pulls in transitively; install it directly
-to set up and run a job.
+Install the core package, then add a connector package for each model provider the pipeline reaches. Each connector
+package pulls in only the SDK its own provider needs. The core package already depends on the
+[@metreeca/gear](https://github.com/metreeca/gear) job executor; install it directly to set up and run a job.
 
 | Package                 | Description                  |
 |-------------------------|------------------------------|
 | [@metreeca/muse]        | AI tasks and shared services |
 | [@metreeca/muse-google] | Google model connectors      |
+| [@metreeca/muse-openai] | OpenAI model connectors      |
 
 [@metreeca/muse]: https://metreeca.github.io/muse/modules/_metreeca_muse.html
 
 [@metreeca/muse-google]: https://metreeca.github.io/muse/modules/_metreeca_muse-google.html
+
+[@metreeca/muse-openai]: https://metreeca.github.io/muse/modules/_metreeca_muse-openai.html
 
 # Usage
 

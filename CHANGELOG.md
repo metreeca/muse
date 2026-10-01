@@ -7,6 +7,15 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [0.2.0](https://github.com/metreeca/muse/compare/v0.1.1...HEAD)
 
+### Added
+
+- `@metreeca/muse-openai` — OpenAI model connectors; the module carries no public API yet
+
+### Changed
+
+- requires `@metreeca/core` `^0.12.0`, `@metreeca/flow` `^0.11.0`, `@metreeca/gear` `^0.3.0` and `@metreeca/tape`
+  `^0.11.0`, so that a consumer on the current line resolves one copy of each rather than a second, superseded one
+
 ## [0.1.1](https://github.com/metreeca/muse/compare/v0.1.0...v0.1.1) - 2026-09-09
 
 ### Changed

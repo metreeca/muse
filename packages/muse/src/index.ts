@@ -17,9 +17,9 @@
 /**
  * AI tasks and shared services.
  *
- * Defines the model facilities an AI job draws on, keeping the job independent of the provider it reaches: a job names
- * a model by its contract rather than importing a concrete client, and a binding substitutes a stubbed, throttled or
- * recorded implementation for the duration of an execution.
+ * Defines the model contracts an AI job relies on, keeping the job independent of any specific provider. A job names
+ * each model by its contract rather than importing a concrete client. A binding can then substitute a stubbed,
+ * throttled or recorded implementation for the duration of an execution.
  *
  * > [!IMPORTANT]
  * >

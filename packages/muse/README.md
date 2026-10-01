@@ -2,11 +2,11 @@
 
 [![npm](https://img.shields.io/npm/v/@metreeca/muse)](https://www.npmjs.com/package/@metreeca/muse)
 
-AI tasks and shared services for [@metreeca/muse](https://github.com/metreeca/muse).
+AI tasks and shared services.
 
-A consumer sets up a [@metreeca/gear](https://github.com/metreeca/gear) executor, binding the models a job relies on to
-the implementations chosen for the run. The job's tasks then resolve each model through the locator, naming it by its
-contract rather than importing a concrete client.
+A job names the models it relies on by their contract rather than importing a concrete client. The
+[@metreeca/gear](https://github.com/metreeca/gear) executor binds each contract to the implementation chosen for the
+run.
 
 Binding a different implementation leaves the job unchanged: the same job runs against a live provider, against
 recorded responses, or against any custom client honouring the same contracts.
@@ -29,11 +29,11 @@ npm install @metreeca/muse  # this package
 
 # Usage
 
-| Module                 | Description                                |
-|------------------------|--------------------------------------------|
-| [@metreeca/muse][muse] | Model access contracts and shared services |
+| Module                 | Description                  |
+|------------------------|------------------------------|
+| [@metreeca/muse][muse] | AI tasks and shared services |
 
-[muse]: https://metreeca.github.io/muse/modules/_metreeca_muse.index.html
+[muse]: https://metreeca.github.io/muse/modules/_metreeca_muse.html
 
 # Support
 

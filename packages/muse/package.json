@@ -1,7 +1,7 @@
 {
   "name": "@metreeca/muse",
   "version": "0.2.0",
-  "description": "AI tasks and shared services.",
+  "description": "AI tasks and shared services for @metreeca/muse.",
   "keywords": [
     "typescript",
     "pipeline",

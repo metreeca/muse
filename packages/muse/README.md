@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/@metreeca/muse)](https://www.npmjs.com/package/@metreeca/muse)
 
-AI tasks and shared services.
+AI tasks and shared services for [@metreeca/muse](https://github.com/metreeca/muse).
 
 A job names the models it relies on by their contract rather than importing a concrete client. The
 [@metreeca/gear](https://github.com/metreeca/gear) executor binds each contract to the implementation chosen for the
